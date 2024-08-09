@@ -26,7 +26,7 @@ export const Component = ({ fieldValues, hublParameters = {} }) => {
   const { title } = hublParameters;
   return (
     <Layout>
-      <h1>{title || 'Todo'}</h1>
+      <h1>{title || 'Marianne Todo'}</h1>
       <Island
         module={TodoList}
         hydrateOn="load"
