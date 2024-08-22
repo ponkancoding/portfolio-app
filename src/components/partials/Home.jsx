@@ -7,6 +7,7 @@ function Home() {
   return (
     <Layout>
       <div className={homeStyles.logo}>
+        <h1 className='mb-7'>Boilerplate Commit 123</h1>
         <HubSpotSprocket link={'https://hubspot.com'} />
       </div>
     </Layout>
